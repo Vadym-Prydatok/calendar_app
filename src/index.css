@@ -1,0 +1,49 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+#root {
+  width: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  transition: all ease-in-out 0.3s;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+button {
+  border-radius: 10px;
+  background-color: #7ecac3;
+  padding: 2px 8px;
+  border: 1px solid #00d3c8;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: #8afff4;
+}
+
+input::-webkit-file-upload-button {
+  transition: all ease-in-out 0.3s;
+  border-radius: 8px;
+  background-color: #7ecac3;
+  padding: 2px 8px;
+  border: none;
+  height: 100%;
+}
+
+input::-webkit-file-upload-button:hover {
+  background-color: #8afff4;
+}
